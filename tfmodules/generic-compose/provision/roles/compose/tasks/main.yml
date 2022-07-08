@@ -81,7 +81,7 @@
 #   notify:
 #     - Restart wireguard
 
-- name: "Create wireguard systemd unit"
+- name: "Create docker-compose systemd unit"
   become: True
   template:
     src: systemd-unit.j2
